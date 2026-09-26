@@ -1,0 +1,20 @@
+A few important html tags for beginners:-
+<br>
+| Tag        | Purpose                          |
+| ---------- | -------------------------------- |
+| `<html>`   | Defines the HTML document        |
+| `<head>`   | Contains page information        |
+| `<title>`  | Sets the browser tab title       |
+| `<body>`   | Contains visible webpage content |
+| `<h1>`     | Main heading                     |
+| `<p>`      | Paragraph                        |
+| `<a>`      | Creates a link                   |
+| `<img>`    | Adds an image                    |
+| `<ul>`     | Unordered list                   |
+| `<ol>`     | Ordered list                     |
+| `<li>`     | List item                        |
+| `<table>`  | Creates a table                  |
+| `<form>`   | Creates a form                   |
+| `<input>`  | Creates an input field           |
+| `<button>` | Creates a button                 |
+| `<div>`    | Groups content                   |

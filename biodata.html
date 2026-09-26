@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-Data Form</title>
+</head>
+<body>
+<h1>My Bio Data</h1>
+<fieldset>
+    <legend>Personal Information</legend>
+    <label for="First name">First Name:</label>
+    <input type="text" id="First name" placeholder="First name">
+    <label for="Last name">Last Name:</label>
+    <input type="text" id="Last name" placeholder="Last name"><br>
+    <label>Male</label><input type="radio" name="gender">
+    <label>Female</label><input type="radio"  name="gender">
+    <label>Others</label><input type="radio" name="gender"><br>
+    <label for="Date of birth">Date of Birth:</label>
+    <input type="date" id="Date of birth"><br>
+    <label for="Email">Email:</label>
+    <input type="email" id="Email" placeholder="Email"><br>
+    <label type="Phone" for="Phone number">Phone Number:</label><input type="number" id="Phone number" placeholder="Phone number"><br>  
+</fieldset>   
+<fieldset>
+    <legend>Education</legend>
+    <label for="School">School Name:</label><input type="text" id="School" placeholder="School name"><br>
+    <label for="Class">Class:</label><input type="text" id="Class" placeholder="Enter Class"><br>
+    <label for="Stream">Stream:</label>
+    <select name="Stream" id="Stream">
+        <option value="Science">Science</option>
+        <option value="Commerce">Commerce</option>
+        <option value="Arts">Arts</option>
+    </select><br>
+    <label for="Marksheet">Marksheet:</label><input type="file" id="Marksheet"><br>
+</fieldset><br>
+<button type="submit">Submit</button> 
+</body>
+</html>
